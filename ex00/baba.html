@@ -9,32 +9,55 @@
 		}
 		h1 
 		{
+			position: relative;
 			text-align: center;
 			color: white;
 		}
-		img
+
+		#Global
 		{
-			height: 500px;
-			width: 750px;
-			text-align: center;
-		    border: 1px solid black;
+			display: block;
+    		text-align: center;
 		}
-		.container
+		#Global #gauche 
 		{
-			text-align: center;
+			position: absolute;
+			margin-left: 650px;
+    		float: left;
+		}
+		#Global #droite 
+		{
+			position : absolute;
+			margin-left: 1300px;
+    		float: left;
+		}
+		#bordure 
+		{
+			border-bottom: 1px solid black;
+		}
+		.fin
+		{
+			text-align: right;
+			font-style: italic;
 		}
 		</style>
 		<title>B.A.BA</title>
 	</head>
 	<body>
-		<h1> Track IFM </h1> 
-		<div style="float:center;text-align:center;margin-right:150px;margin-left:150px;height:50px; width=200px;">
-    		<img src="patek.png"><img/><br/>
-			<a href="https://www.tomford.com/" text-align="center">Tom Ford Store</a>
-    	</div>
-		<div style="float:center;text-align:center;margin-right:150px;margin-left:150px;">
-    		<img src="tom_ford.jpg"><img/><br/>
-   			<a href="https://www.patek.com/" text-align="center">Patek Store</a>
-   		</div>
-   		</body>
+	<h1>étudiant 42</h1> 
+		<div id="Global">
+			<div id="gauche">
+    			<img src="patek.png" height="500px" width="600px"><img/><br/>
+				<a href="https://www.tomford.com/">Tom Ford Store</a>
+			</div>
+			<div id="droite">
+				<img src="tom_ford.jpg" height="500px" width="600px"><img/><br/>
+				<a href="https://www.patek.com/">Patek Store</a>
+			</div>
+		</div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<div id="bordure">
+		</div>
+		<p class="fin"> © hel-hadi 2017</p>
+   	</body>
 </html>
