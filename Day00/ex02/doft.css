@@ -1,0 +1,290 @@
+body
+{
+	background-color: rgb(77,76,80)
+}
+#rectangle
+{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 370px;
+	width: 1800px;
+	height: 180px;
+	background-color: rgb(144, 144, 144);
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 10px 10px 5px ;
+    -webkit-box-shadow: 10px 10px 5px;
+    -o-box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 5px;
+}
+#rectangle2
+{
+	position: absolute;	
+	width: 200px;
+	height: 500px;
+	margin-top: 245px;
+	margin-left: 400px;
+	background-color: rgb(144, 144, 144);
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 10px 10px 5px ;
+    -webkit-box-shadow: 10px 10px 5px;
+    -o-box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 5px;
+}
+#rectangle3
+{
+	position: absolute;	
+	width: 200px;
+	height: 500px;
+	margin-top: 245px;
+	margin-left: 1950px;
+	background-color: rgb(144, 144, 144);
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 10px 10px 5px ;
+    -webkit-box-shadow: 10px 10px 5px;
+    -o-box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 5px;
+}
+#rectangle4
+{
+	position: absolute;	
+	width: 1310px;
+	height: 700px;
+	margin-top: 250px;
+	margin-left: 620px;
+	background-color: rgb(144, 144, 144);
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 10px 10px 5px ;
+    -webkit-box-shadow: 10px 10px 5px;
+    -o-box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 5px;
+}
+#rectangle5
+{
+	position: absolute;	
+	width: 130px;
+	height: 90px;
+	margin-top: 480px;
+	margin-left: 1980px;
+    background-image: url("ressources/brick.jpg");
+    background-repeat: repeat;
+}
+#rectangle6
+{
+	position: absolute;	
+	width: 550px;
+	height: 175px;
+	margin-top: 850px;
+	margin-left: 390px;
+	background-color: rgb(135, 255, 137);
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 10px 10px 5px ;
+    -webkit-box-shadow: 10px 10px 5px;
+    -o-box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 5px;
+}
+#rectangle7
+{
+	position: absolute;	
+	width: 600px;
+	height: 175px;
+	margin-top: 860px;
+	margin-left: 400px;
+    font-size: 16pt;
+    font-family: Times;
+}
+#rectangle_link
+{
+	position: absolute;
+	background-color: none; 
+	width: 200px;
+	height: 300px;
+	margin-top: 600px;
+	margin-left: 1000px;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+#rectangle_link2
+{
+	position: absolute;
+	background-color: none; 
+	width: 220px;
+	height: 220px;
+	margin-top: 630px;
+	margin-left: 1660px;
+    font-size: 16pt;
+    font-family: Times;
+}
+#day
+{
+	position: absolute;
+	margin-left: 370px;
+	-moz-border-radius:8px;
+    -webkit-border-radius:8px;
+ 	border-radius:8px;
+}
+#loupe
+{
+	position: absolute;
+	margin-top: 65px;
+	margin-left: 1810px;
+}
+#actu
+{
+	position: absolute; 
+	margin-left: 2130px;
+	margin-top: 50px;
+}
+#close
+{
+	position: absolute; 
+	margin-left: 2130px;
+	margin-top: 180px;
+}
+#arrow
+{
+	position: absolute; 
+	margin-left: 455px;
+	margin-top: 260px;
+}
+.arrow_img
+{
+	height: 90px;
+	width : 90px;
+}
+#outil
+{
+	position: absolute; 
+	margin-left: 455px;
+	margin-top: 560px;
+}
+.outil_img
+{
+	height: 90px;
+	width : 90px;
+}
+#chat
+{
+	position: absolute;
+	margin-left: 450px;
+	margin-top: 650px;
+}
+.chat_img
+{
+	height: 90px;
+	width : 90px;
+}
+#hand
+{
+	position: absolute; 
+	margin-left: 450px;
+	margin-top: 350px;
+}
+.hand_img
+{
+	height: 90px;
+	width : 90px;
+}
+#cluster
+{
+	position: absolute; 
+	margin-left: 630px;
+	margin-top: 260px;
+}
+.cluster_img
+{
+	width: 1290px;
+	height: 680px;
+}
+#book
+{
+	position: absolute; 
+	margin-left: 2000px;
+	margin-top: 260px;
+}
+.book_img
+{
+	height: 110px;
+	width : 90px;
+}
+#towel
+{
+	position: absolute; 
+	margin-left: 2000px;
+	margin-top: 380px;
+}
+.towel_img
+{
+	height: 90px;
+	width : 90px;
+}
+#wall
+{
+	position: absolute; 
+	margin-left: 2000px;
+	margin-top: 520px;
+}
+.wall_img
+{
+
+	height: 110px;
+	width : 110px;
+}
+#eye
+{
+	position: absolute; 
+	margin-left: 450px;
+	margin-top: 450px;
+}
+.eye_img
+{
+	height: 90px;
+	width : 90px;
+	border : 7px solid red;
+	border-radius: 10px;
+}
+.grand
+{
+	height: 180px;
+}
+.petit
+{
+	height: 150px;
+	margin-top: 50px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.petit_reload
+{
+	height: 30px;
+}
+.arrondie
+{
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+}
+.champs
+{
+	width: 400px;
+	height: 18px;
+}
+.champs1
+{
+	height: 22px;
+	background-color: white;
+}
+.ordi
+{
+	display: inline;
+	text-shadow: 5px 5px 6px red; 
+}

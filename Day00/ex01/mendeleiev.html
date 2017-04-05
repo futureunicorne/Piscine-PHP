@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+	<html lang="fr">
+		<head>
+			<meta charset="utf-8">
+			<title> Tableau de Mendeleiev</title>
+			<style>
+			body 
+			{ 
+				background-image: url(space.jpg); 
+			}
+			h1
+			{
+				color : white;
+				text-align: center;
+			}
+			#center
+			{
+				float: left;
+				margin-left: 320px;
+			}
+			#image
+			{
+				position: absolute;
+				margin-left: 45%;
+
+			}
+			.change
+			{
+				font-size: 16px;
+				color : white;
+			}
+			.left
+			{
+				text-align: left;
+			}
+			.right
+			{
+				text-align: right;
+			}
+			.color
+			{
+				background-color: rgb(73,17,55);
+			}
+			.color1
+			{
+				background-color: rgb(243, 214, 23);
+			}
+			.color2
+			{
+				background-color: rgb(158, 158, 158);
+			}
+			.color3
+			{
+				background-color: rgb(119, 181, 254);
+			}
+			.color4
+			{
+				background-color: rgb(49, 140, 231);
+			}
+			.color5
+			{
+				background-color: rgb(21, 96, 189);
+			}
+			.color6
+			{
+				background-color: rgb(1, 49, 180);
+			}
+			.color7
+			{
+				background-color: rgb(253, 108, 158);
+			}
+			.color8
+			{
+				background-color: rgb(10, 186, 181);
+			}
+			.color9
+			{
+				background-color: rgb(0, 142, 142);
+			}
+			.full
+			{
+				border : 2px solid white;
+				text-align: center;
+				font-size: 13pt;
+			}
+			td
+			{
+				height: 80px;
+				width: 90px;
+			}
+			</style>
+		</head>
+		<body>
+		<h1> Tableau Periodiques des elements </h1>
+		<br/><br/>
+		<div id="center">
+			<table class="change">
+				<tr>
+					<td class="full color2">
+						<div class="right">1.008</div>
+						<br/>H<br/><br/>
+						<div class="left">1</div>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td class="full color1">
+						<div class="right">4.00</div>
+						<br/>He<br/><br/>
+						<div class="left">2</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="full color3">
+						<div class="right">6.94</div>
+						<br/>Li<br/><br/>
+						<div class="left">3</div>
+					</td>
+					<td class="full color4">
+						<div class="right">9.01</div>
+						<br/>Be<br/><br/>
+						<div class="left">4</div>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td class="full color">
+						<div class="right">10.81</div>
+						<br/>B<br/><br/>
+						<div class="left">5</div>
+					</td>
+					<td class="full color7">
+						<div class="right">12.01</div>
+						<br/>C<br/><br/>
+						<div class="left">6</div>
+					</td>
+					<td class="full color7">
+						<div class="right">14.01</div>
+						<br/>N<br/><br/>
+						<div class="left">7</div>
+					</td>
+					<td class="full color7">
+						<div class="right">16.00</div>
+						<br/>O<br/><br/>
+						<div class="left">8</div>
+					</td>
+					<td class="full color7">
+						<div class="right">19.00</div>
+						<br/>F<br/><br/>
+						<div class="left">9</div>
+					</td>
+					<td class="full color1">
+						<div class="right">20.18</div>
+						<br/>Ne<br/><br/>
+						<div class="left">10</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="full color3">
+						<div class="right">22.99</div>
+						<br/>Na<br/><br/>
+						<div class="left">11</div>
+					</td>
+					<td class="full color4">
+						<div class="right">24.31</div>
+						<br/>Mg<br/><br/>
+						<div class="left">12</div>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td class="full color6">
+						<div class="right">26.98</div>
+						<br/>Al<br/><br/>
+						<div class="left">13</div>
+					</td>
+					<td class="full color">
+						<div class="right">28.09</div>
+						<br/>Si<br/><br/>
+						<div class="left">14</div>
+					</td>
+					<td class="full color7">
+						<div class="right">30.97</div>
+						<br/>P<br/><br/>
+						<div class="left">15</div>
+					</td>
+					<td class="full color7">
+						<div class="right">32.07</div>
+						<br/>S<br/><br/>
+						<div class="left">16</div>
+					</td>
+					<td class="full color7">
+						<div class="right">35.45</div>
+						<br/>Cl<br/><br/>
+						<div class="left">17</div>
+					</td>
+					<td class="full color1">
+						<div class="right">39.95</div>
+						<br/>Ar<br/><br/>
+						<div class="left">18</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="full color3">
+						<div class="right">39.10</div>
+						<br/>K<br/><br/>
+						<div class="left">19</div>
+					</td>
+					<td class="full color4">
+						<div class="right">40.08</div>
+						<br/>Ca<br/><br/>
+						<div class="left">20</div>
+					</td>
+					<td class="full color5">	
+						<div class="right">44.96</div>
+						<br/>Sc<br/><br/>
+						<div class="left">21</div>
+					</td>
+					<td class="full color5">
+						<div class="right">47.87</div>
+						<br/>Ti<br/><br/>
+						<div class="left">22</div>
+					</td>
+					<td class="full color5">
+						<div class="right">50.94</div>
+						<br/>V<br/><br/>
+						<div class="left">23</div>
+					</td>
+					<td class="full color5">
+						<div class="right">52.00</div>
+						<br/>Cr<br/><br/>
+						<div class="left">24</div>
+					</td>
+					<td class="full color5">
+						<div class="right">54.94</div>
+						<br/>Mn<br/><br/>
+						<div class="left">25</div>
+					</td>
+					<td class="full color5">
+						<div class="right">55.85</div>
+						<br/>Fe<br/><br/>
+						<div class="left">26</div>
+					</td>
+					<td class="full color5">
+						<div class="right">58.93</div>
+						<br/>Co<br/><br/>
+						<div class="left">27</div>
+					</td>
+					<td class="full color5">
+						<div class="right">58.69</div>
+						<br/>Ni<br/><br/>
+						<div class="left">28</div>
+					</td>
+					<td class="full color5">
+						<div class="right">63.55</div>
+						<br/>Cu<br/><br/>
+						<div class="left">29</div>
+					</td>
+					<td class="full color5">
+						<div class="right">65.38</div>
+						<br/>Zn<br/><br/>
+						<div class="left">30</div>
+					</td>
+					<td class="full color6">
+						<div class="right">69.72</div>
+						<br/>Ga<br/><br/>
+						<div class="left">31</div>
+					</td>
+					<td class="full color">
+						<div class="right">72.64</div>
+						<br/>Ge<br/><br/>
+						<div class="left">32</div>
+					</td>
+					<td class="full color">
+						<div class="right">74.92</div>
+						<br/>As<br/><br/>
+						<div class="left">33</div>
+					</td>
+					<td class="full color7">
+						<div class="right">78.96</div>
+						<br/>Se<br/><br/>
+						<div class="left">34</div>
+					</td>
+					<td class="full color7">
+						<div class="right">79.90</div>
+						<br/>Br<br/><br/>
+						<div class="left">35</div>
+					</td>
+					<td class="full color1">
+						<div class="right">83.80</div>
+						<br/>Kr<br/><br/>
+						<div class="left">36</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="full color3">
+						<div class="right">85.47</div>
+						<br/>Rb<br/><br/>
+						<div class="left">37</div>
+					</td>
+					<td class="full color4">
+						<div class="right">87.62</div>
+						<br/>Sr<br/><br/>
+						<div class="left">38</div>
+					</td>
+					<td class="full color5">	
+						<div class="right">88.91</div>
+						<br/>Y<br/><br/>
+						<div class="left">39</div>
+					</td>
+					<td class="full color5">
+						<div class="right">91.22</div>
+						<br/>Zr<br/><br/>
+						<div class="left">40</div>
+					</td>
+					<td class="full color5">
+						<div class="right">92.91</div>
+						<br/>Nb<br/><br/>
+						<div class="left">41</div>
+					</td>
+					<td class="full color5">
+						<div class="right">95.96</div>
+						<br/>Mo<br/><br/>
+						<div class="left">42</div>
+					</td>
+					<td class="full color5">
+						<div class="right">98.00</div>
+						<br/>Tc<br/><br/>
+						<div class="left">43</div>
+					</td>
+					<td class="full color5">
+						<div class="right">101.07</div>
+						<br/>Ru<br/><br/>
+						<div class="left">44</div>
+					</td>
+					<td class="full color5">
+						<div class="right">102.91</div>
+						<br/>Rh<br/><br/>
+						<div class="left">45</div>
+					</td>
+					<td class="full color5">
+						<div class="right">106.42</div>
+						<br/>Pd<br/><br/>
+						<div class="left">46</div>
+					</td>
+					<td class="full color5">
+						<div class="right">107.87</div>
+						<br/>Ag<br/><br/>
+						<div class="left">47</div>
+					</td>
+					<td class="full color5">
+						<div class="right">112.41</div>
+						<br/>Cd<br/><br/>
+						<div class="left">48</div>
+					</td>
+					<td class="full color6">
+						<div class="right">114.82</div>
+						<br/>In<br/><br/>
+						<div class="left">49</div>
+					</td>
+					<td class="full color6">
+						<div class="right">118.71</div>
+						<br/>Sn<br/><br/>
+						<div class="left">50</div>
+					</td>
+					<td class="full color">
+						<div class="right">121.76</div>
+						<br/>Sb<br/><br/>
+						<div class="left">51</div>
+					</td>
+					<td class="full color">
+						<div class="right">127.60</div>
+						<br/>Te<br/><br/>
+						<div class="left">52</div>
+					</td>
+					<td class="full color7">
+						<div class="right">126.90</div>
+						<br/>I<br/><br/>
+						<div class="left">53</div>
+					</td>
+					<td class="full color1">
+						<div class="right">131.29</div>
+						<br/>Xe<br/><br/>
+						<div class="left">54</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="full color3">
+						<div class="right">132.91</div>
+						<br/>Cs<br/><br/>
+						<div class="left">55</div>
+					</td>
+					<td class="full color4">
+						<div class="right">137.33</div>
+						<br/>Ba<br/><br/>
+						<div class="left">56</div>
+					</td>
+					<td class="full color8">	
+						<div class="right"></div>
+						<br/><br/><br/><br/>
+						<div class="left">57-71</div>
+					</td>
+					<td class="full color5">
+						<div class="right">1.0079</div>
+						<br/>Hf<br/><br/>
+						<div class="left">72</div>
+					</td>
+					<td class="full color5">
+						<div class="right">180.95</div>
+						<br/>Ta<br/><br/>
+						<div class="left">73</div>
+					</td>
+					<td class="full color5">
+						<div class="right">183.84</div>
+						<br/>W<br/><br/>
+						<div class="left">74</div>
+					</td>
+					<td class="full color5">
+						<div class="right">186.21</div>
+						<br/>Re<br/><br/>
+						<div class="left">75</div>
+					</td>
+					<td class="full color5">
+						<div class="right">190.23</div>
+						<br/>Os<br/><br/>
+						<div class="left">76</div>
+					</td>
+					<td class="full color5">
+						<div class="right">192.22</div>
+						<br/>Ir<br/><br/>
+						<div class="left">77</div>
+					</td>
+					<td class="full color5">
+						<div class="right">195.08</div>
+						<br/>Pt<br/><br/>
+						<div class="left">78</div>
+					</td>
+					<td class="full color5">
+						<div class="right">196.97</div>
+						<br/>Au<br/><br/>
+						<div class="left">79</div>
+					</td>
+					<td class="full color5">
+						<div class="right">200.59</div>
+						<br/>Hg<br/><br/>
+						<div class="left">80</div>
+					</td>
+					<td class="full color6">
+						<div class="right">204.38</div>
+						<br/>Tl<br/><br/>
+						<div class="left">81</div>
+					</td>
+					<td class="full color6">
+						<div class="right">207.2</div>
+						<br/>Pb<br/><br/>
+						<div class="left">82</div>
+					</td>
+					<td class="full color6">
+						<div class="right">208.96</div>
+						<br/>Bi<br/><br/>
+						<div class="left">83</div>
+					</td>
+					<td class="full color">
+						<div class="right">209.00</div>
+						<br/>Po<br/><br/>
+						<div class="left">84</div>
+					</td>
+					<td class="full color7">
+						<div class="right">210.00</div>
+						<br/>At<br/><br/>
+						<div class="left">85</div>
+					</td>
+					<td class="full color1">
+						<div class="right">222.00</div>
+						<br/>Rn<br/><br/>
+						<div class="left">86</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="full color3">
+						<div class="right">223.00</div>
+						<br/>Fr<br/><br/>
+						<div class="left">87</div>
+					</td>
+					<td class="full color4">
+						<div class="right">226.00</div>
+						<br/>Ra<br/><br/>
+						<div class="left">88</div>
+					</td>
+					<td class="full color9">	
+						<div class="right"></div>
+						<br/><br/><br/><br/>
+						<div class="left">89-103</div>
+					</td>
+					<td class="full color5">
+						<div class="right">267.00</div>
+						<br/>Rf<br/><br/>
+						<div class="left">104</div>
+					</td>
+					<td class="full color5">
+						<div class="right">268.00</div>
+						<br/>Db<br/><br/>
+						<div class="left">105</div>
+					</td>
+					<td class="full color5">
+						<div class="right">271.00</div>
+						<br/>Sg<br/><br/>
+						<div class="left">106</div>
+					</td>
+					<td class="full color5">
+						<div class="right">272</div>
+						<br/>Bh<br/><br/>
+						<div class="left">107</div>
+					</td>
+					<td class="full color5">
+						<div class="right">277.00</div>
+						<br/>Hs<br/><br/>
+						<div class="left">108</div>
+					</td>
+					<td class="full color5">
+						<div class="right">276.00</div>
+						<br/>Mt<br/><br/>
+						<div class="left">109</div>
+					</td>
+					<td class="full color5">
+						<div class="right">281.00</div>
+						<br/>Ds<br/><br/>
+						<div class="left">110</div>
+					</td>
+					<td class="full color5">
+						<div class="right">280.00</div>
+						<br/>Rg<br/><br/>
+						<div class="left">111</div>
+					</td>
+					<td class="full color5">
+						<div class="right">285.00</div>
+						<br/>Uub<br/><br/>
+						<div class="left">112</div>
+					</td>
+					<td class="full color6">
+						<div class="right">284.00</div>
+						<br/>Uut<br/><br/>
+						<div class="left">113</div>
+					</td>
+					<td class="full color6">
+						<div class="right">289.00</div>
+						<br/>Uuq<br/><br/>
+						<div class="left">114</div>
+					</td>
+					<td class="full color6">
+						<div class="right">288.00</div>
+						<br/>Uup<br/><br/>
+						<div class="left">115</div>
+					</td>
+					<td class="full color6">
+						<div class="right">293.00</div>
+						<br/>Uuh<br/><br/>
+						<div class="left">116</div>
+					</td>
+					<td class="full color6">
+						<div class="right">-</div>
+						<br/>Uus<br/><br/>
+						<div class="left">117</div>
+					</td>
+					<td class="full color1">
+						<div class="right">294.00</div>
+						<br/>Uuo<br/><br/>
+						<div class="left">118</div>
+					</td>
+				</tr>
+				</table>
+			</div>
+			<div id="center">
+				<br/><br/>
+				<table class="change">
+				<tr>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td class="full color8">	
+						<div class="right">138.91</div>
+						<br/>La<br/><br/>
+						<div class="left">57</div>
+					</td>
+					<td class="full color8">
+						<div class="right">140.12</div>
+						<br/>Ce<br/><br/>
+						<div class="left">58</div>
+					</td>
+					<td class="full color8">
+						<div class="right">140.91</div>
+						<br/>Pr<br/><br/>
+						<div class="left">59</div>
+					</td>
+					<td class="full color8">
+						<div class="right">144.24</div>
+						<br/>Nd<br/><br/>
+						<div class="left">60</div>
+					</td>
+					<td class="full color8">
+						<div class="right">145.00</div>
+						<br/>Pm<br/><br/>
+						<div class="left">61</div>
+					</td>
+					<td class="full color8">
+						<div class="right">150.36</div>
+						<br/>Sm<br/><br/>
+						<div class="left">62</div>
+					</td>
+					<td class="full color8">
+						<div class="right">151.96</div>
+						<br/>Eu<br/><br/>
+						<div class="left">63</div>
+					</td>
+					<td class="full color8">
+						<div class="right">157.25</div>
+						<br/>Gd<br/><br/>
+						<div class="left">64</div>
+					</td>
+					<td class="full color8">
+						<div class="right">158.93</div>
+						<br/>Tb<br/><br/>
+						<div class="left">65</div>
+					</td>
+					<td class="full color8">
+						<div class="right">162.50</div>
+						<br/>Dy<br/><br/>
+						<div class="left">66</div>
+					</td>
+					<td class="full color8">
+						<div class="right">164.93</div>
+						<br/>Ho<br/><br/>
+						<div class="left">67</div>
+					</td>
+					<td class="full color8">
+						<div class="right">167.26</div>
+						<br/>Er<br/><br/>
+						<div class="left">68</div>
+					</td>
+					<td class="full color8">
+						<div class="right">168.93</div>
+						<br/>Tm<br/><br/>
+						<div class="left">69</div>
+					</td>
+					<td class="full color8">
+						<div class="right">173.05</div>
+						<br/>Yb<br/><br/>
+						<div class="left">70</div>
+					</td>
+					<td class="full color5">
+						<div class="right">174.97</div>
+						<br/>Lu<br/><br/>
+						<div class="left">71</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td class="full color9">	
+						<div class="right">227.00</div>
+						<br/>Ac<br/><br/>
+						<div class="left">89</div>
+					</td>
+					<td class="full color9">
+						<div class="right">232.04</div>
+						<br/>Th<br/><br/>
+						<div class="left">90</div>
+					</td>
+					<td class="full color9">
+						<div class="right">231.04</div>
+						<br/>Pa<br/><br/>
+						<div class="left">91</div>
+					</td>
+					<td class="full color9">
+						<div class="right">238.03</div>
+						<br/>U<br/><br/>
+						<div class="left">92</div>
+					</td>
+					<td class="full color9">
+						<div class="right">237.00</div>
+						<br/>Np<br/><br/>
+						<div class="left">93</div>
+					</td>
+					<td class="full color9">
+						<div class="right">244.00</div>
+						<br/>Pu<br/><br/>
+						<div class="left">94</div>
+					</td>
+					<td class="full color9">
+						<div class="right">243.00</div>
+						<br/>Am<br/><br/>
+						<div class="left">95</div>
+					</td>
+					<td class="full color9">
+						<div class="right">247.00</div>
+						<br/>Cm<br/><br/>
+						<div class="left">96</div>
+					</td>
+					<td class="full color9">
+						<div class="right">247.00</div>
+						<br/>Bk<br/><br/>
+						<div class="left">97</div>
+					</td>
+					<td class="full color9">
+						<div class="right">251.00</div>
+						<br/>Cf<br/><br/>
+						<div class="left">98</div>
+					</td>
+					<td class="full color9">
+						<div class="right">252.00</div>
+						<br/>Es<br/><br/>
+						<div class="left">99</div>
+					</td>
+					<td class="full color9">
+						<div class="right">257.00</div>
+						<br/>Fm<br/><br/>
+						<div class="left">100</div>
+					</td>
+					<td class="full color9">
+						<div class="right">258.00</div>
+						<br/>Md<br/><br/>
+						<div class="left">101</div>
+					</td>
+					<td class="full color9">
+						<div class="right">259.00</div>
+						<br/>No<br/><br/>
+						<div class="left">102</div>
+					</td>
+					<td class="full color5">
+						<div class="right">262.00</div>
+						<br/>Lr<br/><br/>
+						<div class="left">103</div>
+					</td>
+					<td>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="image">
+			<img src="dimitri.jpg" height="300px">
+		</div>
+		</body>
+	</html>
+
+	
