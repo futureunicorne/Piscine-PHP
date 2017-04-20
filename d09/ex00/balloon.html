@@ -1,0 +1,61 @@
+<!Doctype html>
+	<html lang="fr">
+		<head>
+			<meta charset="utf-8">
+			<title> Balloon </title>
+			<style>
+			.ballon
+			{
+				height: 200px;
+				width: 200px;
+				border-radius: 100%;
+				background-color : red;
+			}
+			</style>
+
+		</head>
+		<body>
+			<h1> La page du Balloon </h1><br/><br/><br/>
+			<div class="ballon" id="balloon"></div>
+			<script>
+				var elem = document.getElementById('balloon');
+				elem.addEventListener("click", bigger, false);
+				elem.addEventListener("mouseout", fewer, false);
+				function bigger()
+				{
+					var bal = document.getElementById('balloon');
+					bal.style.width = bal.offsetWidth+10+'px';
+					bal.style.height = bal.offsetHeight+10+'px';
+					if (bal.style.backgroundColor == '')
+						bal.style.backgroundColor = red;
+					else if (bal.style.bacgroundColor == red)
+						bal.style.backgroundColor = green;
+					else if (bal.style.backgroundColor == green)
+						bal.style.backgroundColor = blue;
+					else if (bal.style.backgroundColor == blue)
+						bal.style.backgroundColor = red;
+					if (bal.style.width > '420px')
+					{
+						bal.style.width = '200px'
+						bal.style.height = '200px'
+
+					}
+				}
+				function fewer()
+				{
+					var bal = document.getElementById('balloon');
+					bal.style.width =  bal.offsetWidth-5+'px';
+					bal.style.height =  bal.offsetHeight-5+'px';
+					if (bal.style.backgroundColor == '')
+						bal.style.backgroundColor = red;
+					else if (bal.style.bacgroundColor == red)
+						bal.style.backgroundColor = green;
+					else if (bal.style.backgroundColor == green)
+						bal.style.backgroundColor = blue;
+					else if (bal.style.backgroundColor == blue)
+						bal.style.backgroundColor = red;
+
+				}
+			</script>
+		</body>
+	</html>
