@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+	<html lang"fr">
+		<head>
+			<meta charset="utf-8">
+			<title> Create Account </title>
+			<style>
+				body
+				{
+					background-color: rgb(73, 17, 55);
+				}
+				h1
+				{
+					color : white;
+					text-align: center;
+				}
+				h2
+				{
+					color: white;
+					text-align: center;
+					font-family: Times;
+				}
+				p{
+					color: white;
+					text-align :center;
+				}
+				table
+				{
+					margin: auto;
+				}
+				td
+				{
+					color: white;
+					border: 2px solid white;
+					padding-right:2px;
+				}
+				#center
+				{
+					text-align: center;
+					margin-left: 11vh;
+				}
+				.image
+				{
+					position: absolute;
+					margin-top: 5vh;
+					margin-left: 30vw;
+					height: 40vh;
+					width: 40vw;
+				}
+				#ligne
+				{
+					margin-top: 50vh;
+					margin-left: 37.6vw;
+					width: 26vw;
+					border-bottom: 1px solid white;
+				}
+				#ex02
+				{
+					position: absolute;
+					margin-top: 1.5vw;
+					margin-left: 48.5vw;
+				}
+				a
+				{
+					color: white;
+				}
+			</style>
+		</head>
+		<body>
+			<h1> Day 04 - Ex01 </h1>
+			<h2><em> Linux Ubuntu Color</em></h2><br/>
+			<p> Pour creer un compte sur cette page,<br/>
+				merci de definir un identifant et un mot de passe </p><br/><br/>
+			<form method="POST" action="create.php">
+				<table>
+					<tr>
+						<td>Identifiant </td>
+						<td><input type="text" name="login" value=""/></td>
+					</tr>
+					<tr>
+						<td>Mot de passe </td>
+						<td><input type="password" name="passwd" value=""/></td>
+					</tr>
+				</table>
+				<div id="ex02">
+					<a href="../ex02/index.html"> Change Your Password </a>
+				</div>
+				<div id="center">
+					<input type="submit" name="submit" value="OK"/>
+					<input type="reset" name="reset" value="Annuler"/>
+				</div>
+			</form>
+			<img src="http://cdn-uploads.gameblog.fr/images/blogs/60131/202579.png" class="image">
+			<div id="ligne"></div>
+		</body>
+	</html>
