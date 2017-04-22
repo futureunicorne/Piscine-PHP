@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+	<html lang="fr">
+		<head>
+			<meta charset="UTF-8">
+			<title> Calculatrice </title>
+			<style>
+				body
+				{
+					background-color: rgb(73, 17, 55);
+				}
+				h1
+				{
+					color: white;
+					text-align: center;
+				}
+				.calc
+				{
+					text-align: center;
+					color: white;
+				}
+			</style>
+		</head>
+		<body>
+			<h1> Calculatrice Simple </h1><br/><br/><br/><br/>
+			<div class="calc" id="calcul">
+				<form method="POST" action="">
+					<input type="text" id="first" value="">
+					<select id="signe">
+						<option value="+">+</option>
+						<option value="-">-</option>
+						<option value="*">*</option>
+						<option value="/">/</option>
+						<option value="%">%</option>
+					</select>
+					<input type="text" id="second" value="">
+					<input type="submit" value="Try Me" id="res">
+				</form>
+			</div>
+		</body>
+	</html>
+
+	<script type="text/javascript">
+		var submit = document.getElementById("res");
+		submit.onclick = Calculatrice;
+
+		function Calculatrice()
+		{
+			var left = document.getElementById("first").value;
+			var right = document.getElementById("second").value;
+			var signe = document.getElementById("signe").value;
+			if (isNaN(right) && isNaN(left))
+				alert('Not a Number: saisie incorrect');
+			var result = parseInt(left) + parseInt(right);
+			console.log(result);
+			alert( result );
+		}
+	</script>
