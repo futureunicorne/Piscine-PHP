@@ -1,0 +1,155 @@
+body
+{
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/d9/80/18/d980182146beb891abe074b5ebbc4ae2.png");
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+}
+h1
+{
+	color : black;
+	text-align: center;
+}
+.ligne
+{
+	display: inline;
+}
+.titre_text
+{
+	text-align: center;
+	font-family: Roundhand, cursive;
+	font-size: 4vh;
+}
+.text
+{
+	text-align: center;
+	font-size: 1.5vh;
+}
+#log
+{
+	position: absolute;
+	margin-top: 48vh;
+	margin-left: 50vw;
+}
+
+#log_new
+{
+	position: absolute;
+	margin-top: 10vh;
+	margin-left: 87.1vw;
+}
+#panier1
+{
+	position: absolute;
+	margin-top: 11vh;
+	margin-left: 1.7vw;
+	color : white;
+}
+#coteg
+{
+	position: absolute;
+	margin-top: 1vw;
+	margin-left: 0vw;
+}
+#barre
+{
+	border-bottom: 0.1vw solid black;
+	margin-top: 73vh;
+	margin-left: 25vw;
+	width: 55vw;
+
+}
+#rectangle
+{
+	position: absolute;
+	width: 20vw;
+	height: 10vh;
+	margin-top: 33vh;
+	margin-left: 47vw;
+	background-color: none;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+
+}
+#bouton
+{
+	position: absolute;
+	margin-top: 53vh;
+	margin-left: 56.8vw;
+}
+
+.lien
+{
+	width:150px;
+	line-height:50px;
+	text-align:center;
+	border: 0.2vw solid rgb(84, 114, 174);
+	color: white;
+	text-decoration:none;
+}
+#retour
+{
+	position: absolute;
+	background-color: rgb(84, 114, 174);
+	margin-top: 83.5vh;
+	margin-left: 54vw;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+
+}
+#order
+{
+	position: absolute;
+	margin-top: 48vh;
+	margin-left: 52vw;
+}
+#menu-deroulant, #menu-deroulant
+ul
+{
+    padding: 0;
+    margin: 0;
+    font-size: 2vH;
+    list-style: none;
+
+}
+#menu-deroulant
+{
+    text-align: center;
+}
+#menu-deroulant
+li
+{
+    display: inline-block;
+    background-color: rgb(84, 114, 174);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border: 0.5Vmin solid white;
+}
+#menu-deroulant
+ul li
+{
+    display: inherit;
+}
+#menu-deroulant
+a
+{
+    text-decoration: none;
+    display: block;
+	color:#000;
+}
+#menu-deroulant
+ul
+{
+    position: absolute;
+    left: -999em;
+    text-align: center;
+    z-index: 1000;
+}
+#menu-deroulant
+li:hover ul
+{
+    left: auto;
+}
